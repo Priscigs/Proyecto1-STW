@@ -1,0 +1,13 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 40px;
+    margin-left: 220px;
+    margin-right: 220px;
+  }
+
+.grid-info {
+    padding: 20px;
+    font-size: 13px;
+    color: white;
+}

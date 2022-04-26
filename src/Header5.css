@@ -1,0 +1,18 @@
+.container2 {
+    height: 75px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 40%;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+  }
+
+.title {
+    font-size: 34px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    font: bold;
+    
+}

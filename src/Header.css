@@ -1,0 +1,59 @@
+body{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000000, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000000, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+a:any-link {
+    color: #fefffd;
+}
+
+.words {
+    color: white;
+}
+
+.title {
+    list-style-type: none;
+    margin: 0;
+    float: left;
+    margin-right: 105px;
+    font-size: 25px;
+}
+
+.menu-ul {
+    list-style-type: none;
+    margin: 0;
+    float: right;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+.menu-ul li {
+    display: inline-block; 
+    margin-right: 30px;
+}
+
+.imagenLinea {
+    display: inline-block; 
+    margin-left: 1300px;
+    margin-top: 15px;
+}
+
+.imagenLupa {
+    display: inline-block; 
+    margin-left: 1300px;
+    margin-top: 15px;
+}
+
+.imagenCompra {
+    display: inline-block; 
+    margin-left: 35px;
+}
+
+.imagenLogo {
+    display: inline-block; 
+    margin-left: 95px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
