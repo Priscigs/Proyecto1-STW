@@ -1,20 +1,17 @@
 import React from 'react';
 import './StartApp.css';
 import Header from './Header'
-import Tours from './Tours'
-import FineArt from './FineArt'
-import Cuadricula from './Cuadricula';
 import deck from './deck';
 import SliderImg from './SliderImg';
 import Board from './Board';
 import Header3 from './Header3';
 import Header4 from './Header4';
 import Header5 from './Header5';
+import Header6 from './Header6';
 import Video from './Video';
 import Testimonial from './Testimonial';
-import '../assets/landscape1.jpeg'
-import '../assets/landscape2.jpeg'
-import '../assets/landscape3.jpeg'
+import Buttons from './Buttons';
+import Header7 from './Header7';
 import { BrowserRouter as Router,
          Route } from 'react-router-dom'
 
@@ -49,6 +46,9 @@ class StartApp extends React.Component {
                 <Video></Video>
                 <Header5></Header5>
                 <Testimonial></Testimonial>
+                <Header6></Header6>
+                <Buttons></Buttons>
+                <Header7></Header7>
             </Router>
         );
     }
