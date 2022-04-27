@@ -206,6 +206,27 @@ How To Create a Flip Card with CSS. (2022). W3schools.com. https://www.w3schools
     font: bold;
     
 }
+/*!*******************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Header6.css ***!
+  \*******************************************************************/
+.container3 {
+    height: 75px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 39%;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+  }
+
+.title {
+    font-size: 34px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    font: bold;
+    
+}
 /*!***********************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/Testimonial.css ***!
   \***********************************************************************/
@@ -220,5 +241,87 @@ How To Create a Flip Card with CSS. (2022). W3schools.com. https://www.w3schools
 .grid-info {
     padding: 20px;
     font-size: 13px;
+    color: white;
+}
+
+.info {
+    margin-left: 15px;
+}
+/*!*******************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Buttons.css ***!
+  \*******************************************************************/
+.grid-containerB {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    padding: 40px;
+    margin-left: 65px;
+    margin-right: 55px;
+    margin-bottom: 0px;
+  }
+
+.grid-button {
+    font-size: 13px;
+    color: black;
+}
+
+.btn{
+  padding: 0px;
+  background-size: 150px 150px;
+}
+/*!*******************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Header7.css ***!
+  \*******************************************************************/
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    margin-left: 580px;
+    margin-right: 560px;
+    margin-top: 0px;
+}
+  
+.grid-button2 {
+    margin-top: 0px;
+    font-size: 13px;
+    color: white;
+}
+
+.button {
+    background-color: black;
+    opacity: 1;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 1px;
+    cursor: pointer;
+    border-radius: 12%;
+}
+
+.button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.button2 {
+    background-color: black;
+    opacity: 1;
+    border: none;
+    color: white;
+    padding: 5px 18px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 4px 1px;
+    cursor: pointer;
+    border-radius: 12%;
+}
+
+.button2:hover {
+    background-color: #555555;
     color: white;
 }
