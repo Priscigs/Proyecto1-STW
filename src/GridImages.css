@@ -2,18 +2,89 @@
     height: 700px;
     vertical-align: baseline;
     background-image: url('../assets/cityscapes.jpeg');
-    background-position: 50% 50%;
+    width:fit-content;
   }
 
-.grid-container {
+.grid-containerImages {
     display: grid;
     height: 700px;
     grid-template-columns: auto auto;
-    margin-left: 220px;
-    margin-right: 220px;
   }
 
-.grid-info {
+.grid-infoo1 {
+    margin-top: 95px;
+    padding-right: 100px;
+    margin-left: 150px;
+    /* padding: 20px; */
     font-size: 13px;
     color: white;
+}
+
+.grid-images {
+    font-size: 13px;
+    color: white;
+    padding-left: 45px;
+    padding-right: 0px;
+}
+
+.grid-images2 {
+    font-size: 13px;
+    color: white;
+    padding-left: 9px;
+    padding-right: 0px;
+}
+
+.mainText2 {
+    padding-top: 50px;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.mainText3 {
+    padding-top: 90px;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.infoText2 {
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.btn1I1 {
+    margin-top: 30px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 11px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.btnI11 {
+    margin-top: 45px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #e7e7e7;
+}
+
+.btnI11:hover {
+    background-color: white;
+    color: black;
+}
+
+.mainText3 {
+    padding-top: 105px;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.mainText4 {
+    padding-top: 90px;
+    font-size: 34px;
+    font-weight: bold;
 }
