@@ -5,10 +5,10 @@ class Card extends React.Component {
     render() {
         return (
             <div className="card">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="main"></div>
-                        <div class="content">
+                <div className="flip-card">
+                    <div className="flip-card-inner">
+                        <div className="main"></div>
+                        <div className="content">
                             {/* <img className={`fa $ {this.props.image} fa-$x`}></img> */}
                             <p className='words'>
                                 Embark on a Remakable Wildlife Adventure

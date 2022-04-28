@@ -1,9 +1,11 @@
 import React from 'react';
 import './StartApp.css';
-import Header from './Header'
 import deck from './deck';
 import SliderImg from './SliderImg';
+import GridImages from './GridImages';
 import Board from './Board';
+import Header from './Header'
+import Header2 from './Header2';
 import Header3 from './Header3';
 import Header4 from './Header4';
 import Header5 from './Header5';
@@ -12,6 +14,7 @@ import Video from './Video';
 import Testimonial from './Testimonial';
 import Buttons from './Buttons';
 import Header7 from './Header7';
+import Info from './Info';
 import { BrowserRouter as Router,
          Route } from 'react-router-dom'
 
@@ -40,6 +43,8 @@ class StartApp extends React.Component {
                 <SliderImg>
                         
                 </SliderImg>
+                <GridImages></GridImages>
+                <Header2></Header2>
                 <Header3></Header3>
                 <Board deckCards = {this.state.deckCards}/>
                 <Header4></Header4>
@@ -49,6 +54,7 @@ class StartApp extends React.Component {
                 <Header6></Header6>
                 <Buttons></Buttons>
                 <Header7></Header7>
+                <Info></Info>
             </Router>
         );
     }

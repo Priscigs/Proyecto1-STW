@@ -1,7 +1,8 @@
 .container2 {
     height: 75px;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 1px;
     margin-left: 40%;
     justify-content: space-between;
     align-content: center;

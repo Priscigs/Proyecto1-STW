@@ -1,19 +1,19 @@
+.grid-main {
+    height: 700px;
+    vertical-align: baseline;
+    background-image: url('../assets/cityscapes.jpeg');
+    background-position: 50% 50%;
+  }
+
 .grid-container {
     display: grid;
+    height: 700px;
     grid-template-columns: auto auto;
-    padding: 0px;
     margin-left: 220px;
     margin-right: 220px;
-    margin-top: 1px;
-    margin-bottom: 33px;
   }
 
 .grid-info {
-    padding: 20px;
     font-size: 13px;
     color: white;
-}
-
-.info {
-    margin-left: 15px;
 }

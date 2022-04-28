@@ -1,18 +1,183 @@
 .grid-containerI {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    padding: 40px;
-    margin-left: 65px;
-    margin-right: 55px;
-    margin-bottom: 0px;
-  }
-
-.grid-button {
-    font-size: 13px;
-    color: black;
+  margin-bottom: 0px;
+  height: 560px;
+  vertical-align: baseline;
+  background-color: #252525;
+  background-image: url('../assets/cityscapes.jpeg');
+  background-position: 50% 50%;
 }
 
-.btn{
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr 1fr;
+  margin-top: 0px;
+  margin-left: 65px;
+  margin-right: 55px;
+  margin-bottom: 0px;
+}
+
+.grid-info {
+  margin-top: 50px;
+  padding: 20px;
+  font-size: 13px;
+  color: white;
+}
+
+.grid-info2 {
+  margin-top: 40px;
+  width: 100px;
+}
+
+.joinText {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.infoText {
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.btnI1 {
+  margin-top: 60px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btnI {
+  margin-top: 45px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #e7e7e7;
+}
+
+.btnI:hover {
+  background-color: white;
+  color:#252525;
+}
+
+.btnI100 {
   padding: 0px;
-  background-size: 150px 150px;
+  margin-top: 30px;
+  border: transparent;
+  background-color: transparent;
+}
+
+.btnI100:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.txt {
+  padding: 10px !important;
+  margin: 0;
+  margin-bottom: 15px;
+  width: 430px;
+  background-color: #252525;
+  font-size: 15px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: arial;
+  padding-left: 2px !important;
+}
+
+.grid-containerI2 {
+  display: grid;
+  margin-bottom: 5px;
+  background-color: #252525;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 5px;
+}
+
+.grid-buttonI {
+  margin-top: 0px;
+  font-size: 13px;
+  background-color: #252525;
+}
+
+.grid-containerI3 {
+  display: grid;
+  margin-bottom: 9px;
+  margin-top: 25px;
+  background-color: #252525;
+  grid-template-columns: auto auto auto;
+  vertical-align: middle;
+}
+
+.grid-buttonI3 {
+  margin-top: 20px;
+  font-size: 13px;
+  background-color: #252525;
+}
+
+.grid-containerI4 {
+  display: grid;
+  background-color: #252525;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.grid-buttonI4 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 14px;
+  color: white;
+}
+
+.btnI1001 {
+  padding: 0px;
+  margin-top: 50px;
+  border: transparent;
+  background-color: transparent;
+}
+
+.btnI1001:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.txt2 {
+  padding: 10px !important;
+  margin: 0;
+  margin-bottom: 15px;
+  width: 220px;
+  background-color: #252525;
+  font-size: 15px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: arial;
+  padding-left: 2px !important;
+}
+
+.grid-containerI5 {
+  display: grid;
+  background-color: #252525;
+  grid-template-rows: auto auto auto auto;
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.grid-info100 {
+  display: grid;
+  background-color: #252525;
+  grid-template-columns: auto auto;
+  margin-top: 40px;
+  width: 50px;
+}
+
+.imagenLupa2 {
+  margin-top: 15px;
 }
