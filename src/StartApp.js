@@ -3,7 +3,7 @@ import './StartApp.css';
 import SliderImg from './SliderImg';
 import GridImages from './GridImages';
 import Board from './Board';
-import Header from './Header'
+import Header from './Header';
 import Header2 from './Header2';
 import Header3 from './Header3';
 import Header4 from './Header4';
@@ -14,7 +14,7 @@ import Testimonial from './Testimonial';
 import Buttons from './Buttons';
 import Header7 from './Header7';
 import Info from './Info';
-import { BrowserRouter as Router} from 'react-router-dom'  
+import { BrowserRouter as Router} from 'react-router-dom';
 
 class StartApp extends React.Component {
     render() {

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import './Header7.css';
 
 class Header7 extends React.Component {

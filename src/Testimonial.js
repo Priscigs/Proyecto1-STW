@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import './Testimonial.css';
 
 class Testimonial extends React.Component {
@@ -22,11 +22,8 @@ class Testimonial extends React.Component {
                     <div className="grid-info">“This brilliant photography tour was led by Ignacio Palacios and Richard I’Anson. I cannot express my gratitude enough to both for their absolute professionalism, generosity in terms of their time and willingness to share their expertise and for making this such a fun and exciting experience.”</div>
                     <div className="grid-info">
                         <img src="../assets/perfil3.png" width='60px' height='60px'></img>
-                            {/* <div className="info"> */}
                                 Peter Eastway
                                 Australian Landscape Photographer & Editor
-                            {/* </div> */}
-                            
                     </div>
                     <div className="grid-info">
                         <img src="../assets/perfil4.png" width='60px' height='60px'></img>

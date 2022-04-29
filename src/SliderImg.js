@@ -1,8 +1,5 @@
 import React from 'react';
-import { Carousel,
-         CarouselItem,
-         CarouselControl,
-         CarouselCaption } from 'reactstrap';
+import { Carousel, CarouselItem, CarouselControl, CarouselCaption } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const items = [
@@ -73,18 +70,9 @@ class SliderImg extends React.Component {
         const { activeIndex } = this.state;
 
         const slides = items.map((item) => {
-            return (
-            <CarouselItem
-                onExiting={this.onExiting}
-                onExited={this.onExited}
-                key={item.src}
-            >
-                <img src={item.src} alt={item.altText} width="100%" height="750px"/>
-                <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
-            </CarouselItem>
+            return (<CarouselItem onExiting={this.onExiting} onExited={this.onExited} key={item.src}> <img src={item.src} alt={item.altText} width="100%" height="750px"/><CarouselCaption captionText={item.caption} captionHeader={item.caption} /></CarouselItem>
             );
-        }
-    );
+        });
 
         return (
             <Carousel

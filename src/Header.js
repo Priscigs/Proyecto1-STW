@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom' 
 import './Header.css';
 
 class Header extends React.Component {
@@ -42,7 +41,7 @@ class Header extends React.Component {
                     <img className='imagenCompra' src='../assets/compra.png' width="35px" height="35px"></img>
                 </ul>
             </div>
-        )
+        );
     }
 }
 

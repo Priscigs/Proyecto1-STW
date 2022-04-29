@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import './GridImages.css';
 
 class GridImages extends React.Component {
@@ -43,7 +43,7 @@ class GridImages extends React.Component {
                             <div className="infoText2">Discover my limited edition collection of photography and coffee table books.</div>
                             <form method="get" action="http://www.donothingfor2minutes.com/">
                                 <button name='btn3' type="submit" className="btn1I1 btnI11">VIEW NOW</button>
-                                </form>
+                            </form>
                         </div>
                         <div className="grid-images">
                             <img src="../assets/gorilla.jpeg" height="700" width="750px"></img>

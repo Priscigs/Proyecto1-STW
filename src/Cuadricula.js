@@ -1,5 +1,4 @@
 import React from 'react';
-import { Row } from 'reactstrap';
 //import './Cuadricula.css';
 
 class Cuadricula extends React.Component {
@@ -12,7 +11,7 @@ class Cuadricula extends React.Component {
                     </Col>
                 </Row> */}
             </div>
-        )
+        );
     }
 }
 
