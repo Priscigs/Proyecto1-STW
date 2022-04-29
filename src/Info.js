@@ -20,48 +20,64 @@ class Info extends React.Component {
                             <div className="joinText">FOLLOW US</div>
                             <div className='grid-containerI2'>
                                 <div className="grid-buttonI">
-                                    <button type="button" className="btnI100">
-                                        <img src="../assets/instagram.png" height ="25" width="25" />
-                                    </button>
+                                    <form method="get" action="https://www.instagram.com/ignacio_palacios_ip/">
+                                        <button type="submit" className="btnI100">
+                                            <img src="../assets/instagram.png" height ="25" width="25" />
+                                        </button>
+                                    </form>
                                 </div>
                                 <div className="grid-buttonI">
-                                    <button type="button" className="btnI100">
-                                        <img src="../assets/facebook.png" height ="18" width="18" />
-                                    </button>
+                                    <form method="get" action="https://www.facebook.com/iptravelphotography">
+                                        <button type="submit" className="btnI100">
+                                            <img src="../assets/facebook.png" height ="18" width="18" />
+                                        </button>
+                                    </form>
                                 </div>
                                 <div className="grid-buttonI">
-                                    <button type="button" className="btnI100">
-                                        <img src="../assets/gettyimages.png" height ="25" width="65" />
-                                    </button>
+                                    <form method="get" action="https://www.gettyimages.com.au/search/2/image?phrase=ignacio+palacios&excludenudity=true&family=creative">
+                                        <button type="submit" className="btnI100">
+                                            <img src="../assets/gettyimages.png" height ="25" width="65" />
+                                        </button>
+                                    </form>
                                 </div>
                                 <div className="grid-buttonI">
-                                    <button type="button" className="btnI100">
-                                        <img src="../assets/espiral.png" height ="18" width="18" />
-                                    </button>
+                                    <form method="get" action="https://500px.com/p/ignaciopalacios?">
+                                        <button type="submit" className="btnI100">
+                                            <img src="../assets/espiral.png" height ="18" width="18" />
+                                        </button>
+                                    </form>
                                 </div>
                             </div>
                             <div className='grid-containerI3'>
                                 <div className="grid-buttonI3">
-                                    <button type="button" className="btnI1001">
-                                        <img src="../assets/epson.png" height ="20" width="70" />
-                                    </button>
+                                    <form method="get" action="https://www.epson.com.au/">
+                                        <button type="submit" className="btnI1001">
+                                            <img src="../assets/epson.png" height ="20" width="70" />
+                                        </button>
+                                    </form>
                                 </div>
                                 <div className="grid-buttonI3">
-                                    <button type="button" className="btnI100">
-                                        <img src="../assets/aipp.png" height ="70" width="70" />
-                                    </button>
+                                    <form method="get" action="http://www.donothingfor2minutes.com/">
+                                        <button type="submit" className="btnI100">
+                                            <img src="../assets/aipp.png" height ="70" width="70" />
+                                        </button>
+                                    </form>
                                 </div>
                                 <div className="grid-buttonI3">
-                                    <button type="button" className="btnI100">
-                                        <img src="../assets/nikon.png" height ="65" width="70" />
-                                    </button>
+                                    <form method="get" action="https://www.nikon.com.au/">
+                                        <button type="submit" className="btnI100">
+                                            <img src="../assets/nikon.png" height ="65" width="70" />
+                                        </button>
+                                    </form>
                                 </div>
                             </div>
                             <div className='grid-containerI4'>
                                 <div className="grid-buttonI3">
-                                    <button type="button" className="btnI100">
-                                        <img src="../assets/360p.png" height ="25" width="100%" />
-                                    </button>
+                                    <form method="get" action="https://360photoawards.com/">
+                                        <button type="submit" className="btnI100">
+                                            <img src="../assets/360p.png" height ="25" width="100%" />
+                                        </button>
+                                    </form>
                                 </div>
                             </div>
                         </div>

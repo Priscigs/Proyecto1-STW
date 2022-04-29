@@ -1,8 +1,90 @@
 .board {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
     flex-wrap: wrap;
     width: 95%;
     height: 920px;
     margin: 0 auto;
     justify-content: space-around;
+    vertical-align: middle;
 }
+  
+.grid-board {
+    margin-top: 0px;
+    font-size: 13px;
+    color: white;
+    vertical-align: middle;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    vertical-align: middle;
+}
+
+.words {
+    color: white;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 400px;
+    height: 400px;
+    border-radius: 20%;
+    vertical-align: middle;
+  }
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    vertical-align: middle;
+}
+  
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    vertical-align: middle;
+}
+
+.main, .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    vertical-align: middle;
+    text-align: center;
+}
+  
+.main {
+    background-color: #252525;
+    width: 400px;
+    height: 400px;
+    color: black;
+    vertical-align: middle;
+    text-align: center;
+}
+  
+.content {
+    background-color: black;
+    color: black;
+    transform: rotateY(180deg);
+    vertical-align: middle;
+    text-align: center;
+}
+
+.prueba {
+    width: 400px;
+    height: 400px;
+}
+
+
+/* 
+How To Create a Flip Card with CSS. (2022). W3schools.com. https://www.w3schools.com/howto/howto_css_flip_card.asp
+*/

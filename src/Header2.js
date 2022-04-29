@@ -11,7 +11,10 @@ class Header2 extends React.Component {
                         <div className="mainText">EXCLUSIVE PHOTOGRAPHY TIPS AND</div>
                         <div className="mainText22">TECHNIQUES</div>
                         <div className="infoText4">Check out my blog for all this and so much more.</div>
-                        <button type="button" className="btn1H2 btnH2">LEARN MORE</button>
+                        <form method="get" action="http://www.donothingfor2minutes.com/">
+                            <button className="btn1H2 btnH2" type="submit">LEARN MORE</button>
+                        </form>
+                      
                     </div>
                 </div>
             </header>

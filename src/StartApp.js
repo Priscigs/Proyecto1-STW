@@ -1,6 +1,5 @@
 import React from 'react';
 import './StartApp.css';
-import deck from './deck';
 import SliderImg from './SliderImg';
 import GridImages from './GridImages';
 import Board from './Board';
@@ -15,39 +14,18 @@ import Testimonial from './Testimonial';
 import Buttons from './Buttons';
 import Header7 from './Header7';
 import Info from './Info';
-import { BrowserRouter as Router,
-         Route } from 'react-router-dom'
-
-const getInitState = () => {
-    const deckCards = deck();
-    return {
-        deckCards
-    };
-}
+import { BrowserRouter as Router} from 'react-router-dom'  
 
 class StartApp extends React.Component {
-
-    constructor(props) {
-        super(props);
-        this.state = getInitState();
-    }
-
     render() {
         return (
-            <Router>
-                <div>
-                    <Header></Header>
-                    {/* <Route path="/" component={Tours} />
-                    <Route path="/FineArt" component={FineArt} /> */}
-                </div>
-                <SliderImg>
-
-                </SliderImg>
-                
-                <Header2></Header2>
+            <Router>    
+                <Header></Header>
+                <SliderImg></SliderImg>
                 <GridImages></GridImages>
+                <Header2></Header2>
                 <Header3></Header3>
-                <Board deckCards = {this.state.deckCards}/>
+                <Board></Board>
                 <Header4></Header4>
                 <Video></Video>
                 <Header5></Header5>
