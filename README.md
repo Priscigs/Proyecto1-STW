@@ -9,7 +9,7 @@
     
 - ☁️ Además de utilizar AWS como recurso para poder subir dicho proyecto
 
--🧹 Además se separó todo debidamente en carpetas, siendo estas:
+- 🧹 Además se separó todo debidamente en carpetas, siendo estas:
     - 📁 SRC
     - 📁 ASSETS
     - 📁 BUNDLE_REACT
