@@ -6,6 +6,7 @@
     - ⚙️ REACT
     - ⚙️ WEBPACK
     - ⚙️ BABEL
+    - ⚙️ ESLINT
     
 - ☁️ Además de utilizar AWS como recurso para poder subir dicho proyecto
 
