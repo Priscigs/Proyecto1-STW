@@ -1,5 +1,15 @@
 .grid-containerH2 {
-    padding: 40px;
+    margin-bottom: 0px;
+    height: 560px;
+    vertical-align: baseline;
+    background-color: transparent;
+    background-position: 50% 50%;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.grid-mainH2 {
     margin-bottom: 0px;
     height: 560px;
     vertical-align: baseline;
@@ -19,16 +29,39 @@
 .mainText {
     font-size: 34px;
     font-weight: bold;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    padding-top: 5px;
 }
 
-.infoText {
+.mainText22 {
+    font-size: 34px;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    padding-top: 10px;
+}
+
+.infoText4 {
     font-size: 14px;
-    margin-top: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    padding-top: 10px;
 }
 
 .btn1H2 {
     margin-top: 30px;
     background-color: transparent;
+    position: absolute;
     border: none;
     color: white;
     padding: 11px 28px;
@@ -37,7 +70,10 @@
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+    top: 55%;
+    left: 50%;
     cursor: pointer;
+    transform: translate(-50%, -50%);
   }
 
 .btnH2 {

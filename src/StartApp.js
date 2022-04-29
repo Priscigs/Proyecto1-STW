@@ -31,7 +31,7 @@ class StartApp extends React.Component {
         super(props);
         this.state = getInitState();
     }
-    
+
     render() {
         return (
             <Router>
@@ -39,12 +39,13 @@ class StartApp extends React.Component {
                     <Header></Header>
                     {/* <Route path="/" component={Tours} />
                     <Route path="/FineArt" component={FineArt} /> */}
-                </div> 
+                </div>
                 <SliderImg>
-                        
+
                 </SliderImg>
-                <GridImages></GridImages>
+                
                 <Header2></Header2>
+                <GridImages></GridImages>
                 <Header3></Header3>
                 <Board deckCards = {this.state.deckCards}/>
                 <Header4></Header4>
